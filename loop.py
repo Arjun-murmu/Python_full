@@ -35,3 +35,15 @@ for n in range(2,10):
 #loop pratice 8
 for n in range(2,10+2):
     print(n)
+#loop pratice 9
+for n in range(2,10,2):
+    print(n)
+#loop pratice 10
+for n in range(4,15+1,2):
+    print(n)
+#loop pratice 11
+for m in range(2*2,25,3+2):
+    print(m)
+#loop pratice 12
+for o in range(10,0,-2):
+    print(o)
