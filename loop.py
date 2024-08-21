@@ -64,3 +64,12 @@ for t in range(1,10+1):
 #loop pratice 14
 for nu in range(2,-2,-1):
     print(nu)
+#loop pratice 15
+for r in [8,9,10]:
+    print(r)
+#loop praticce 16
+attempt = 1
+while (attempt <= 5):
+    print("Try Again.")
+    attempt += 1
+print("You Sucess.")
