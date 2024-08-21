@@ -73,3 +73,8 @@ while (attempt <= 5):
     print("Try Again.")
     attempt += 1
 print("You Sucess.")
+# Loop Pratice 17 (Multiplication Number : )
+print("Multiplication Number : ")
+number = int(input("Enter a number : "))
+for n in range(1,11):
+    print(number," x ",n," = " ,n*number)
