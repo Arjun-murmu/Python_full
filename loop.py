@@ -26,3 +26,12 @@ def to_celsius(x):
     return (x-32)*5/9
 for x in range(0,101,5):
     print(x,to_celsius(x))
+ #loop pratice 6
+for n in range(4+1):
+    print(n)
+#loop partice 7
+for n in range(2,10):
+    print(n)
+#loop pratice 8
+for n in range(2,10+2):
+    print(n)
