@@ -47,3 +47,20 @@ for m in range(2*2,25,3+2):
 #loop pratice 12
 for o in range(10,0,-2):
     print(o)
+#loop pratice 13
+for t in range(1,10+1):
+    print("3 * ",t," = ", t*3)
+#OUTPUT
+# 3 *  1  =  3
+# 3 *  2  =  6
+# 3 *  3  =  9
+# 3 *  4  =  12
+# 3 *  5  =  15
+# 3 *  6  =  18
+# 3 *  7  =  21
+# 3 *  8  =  24
+# 3 *  9  =  27
+#3 *  10  =  30
+#loop pratice 14
+for nu in range(2,-2,-1):
+    print(nu)
