@@ -78,3 +78,32 @@ print("Multiplication Number : ")
 number = int(input("Enter a number : "))
 for n in range(1,11):
     print(number," x ",n," = " ,n*number)
+#Loop Pratice 18
+for left in range(7):
+  for right in range(left, 7):
+      print(left,right,end = " ")
+      print("[" + str(left) + "|" + str(right) + "]", end=" ")
+  print()
+
+#loop pratice 19
+for left in range(7):
+    for right in range(left, 7):
+        print(left, right, end = " ")
+    print()
+
+#Loop pratice 19
+teams = [ 'Subarnakha', 'Deula', 'Basudevpur', 'Simulia']
+for home_team in teams:
+  for away_team in teams:
+    if home_team != away_team:
+      print(home_team + " vs " + away_team)
+
+#Loop pratice 20
+gratting = "Hello"
+for i in gratting:
+    print("Character :",i)
+
+#Loop pratice 21
+greeting = "Hello"
+for i in range(len(greeting)):
+	print(i)
